@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+/* styles.css */
+.holder {
+  display: grid; /* Enable grid layout */
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 equal rows */
+  width: 200px; /* Total width of the grid */
+  height: 200px; /* Total height of the grid */
+  gap: 0; /* Optional: remove space between items */
+}
+
+.item {
+  display: flex; /* Center the content inside each grid item */
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  border: 1px solid #000; /* Border for visibility */
+  font-size: 24px; /* Optional: increase font size for better visibility */
+}
